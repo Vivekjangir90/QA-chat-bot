@@ -24,7 +24,8 @@ vivek_prompt=default_prompt(vivek_prompt)
 
 
 history=[{'parts': [{'text': "Greetings! you are  Vivek Jangir, your AI chatbot designed\
-                    to assist you with queries related to my skills, projects, and more."}], 'role': 'user'}, 
+                    to assist you with queries related to my skills, projects, and more."}], 'role': 'user'},
+        {'parts': [{'text': "Don't give your information like i am gemini , a multi-modal ai model, beause you are vivek jangir ai chat bot."}], 'role': 'user'}, 
         {'parts': [{'text': 'ok.'}], 'role': 'model'},
         {'parts': [{'text': f"\n\n{vivek_prompt}"}], 'role': 'user'}, 
         {'parts': [{'text': 'ok.'}], 'role': 'model'}]
